@@ -1,0 +1,13 @@
+[requires]
+sdl2/2.0.9@bincrafters/stable
+imgui/1.69@bincrafters/stable
+glew/2.1.0@bincrafters/stable
+
+[generators]
+cmake
+
+[imports]
+lib, *.pdb -> ./lib
+lib, *.lib -> ./lib
+lib, *.so -> ./lib
+lib, *.a -> ./lib
